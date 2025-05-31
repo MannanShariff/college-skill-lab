@@ -18,9 +18,14 @@
                 <label for="name" class="form-label">Your Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
             </div>
+            
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+            </div>
+            <div class="mb-3">
+                <label for="number" class="form-label">Your Number</label>
+                <input type="tel" id="number" maxlength="10" pattern="[0-9]{10}" minlength="10" name="number" title="Please enter a valid 10-digit phone number"  class="form-control" id="number" placeholder="Enter your number" required />
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
